@@ -1,4 +1,8 @@
 # ZhangScope
+<img src="https://raw.githubusercontent.com/razyoboy/unishared/main/img/zsm.png" width=75%>
+<br>
+<br>
+
 ZhangScope is an easy to replicate Oximeter with a substantial accuracy increase compared to the lower budgets one.
 
 This is inspired by the current event of the COVID-19 pandemic, which saw the rise of interest in Oximeter products in the market, ZhangScope aims to offer a cheaper, but accurate platform to measure SpO2 concentration - together with a mobile application as a proof-of-concept.
