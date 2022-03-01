@@ -12,4 +12,21 @@ This is inspired by the current event of the COVID-19 pandemic, which saw the ri
 This repository contains two codebases
   1. ZhangScope Oximeter (C++ / Arduino)
   2. ZhangScope Application Flutter (Dart)
-  
+
+
+## Build from Source
+
+#### Arduino
+*_Requires PlatformIO (VSCode) and its prerequisite._*
+
+* Clone this repository 
+
+ ``` git clone https://github.com/razyoboy/ZhangScope.git```
+
+#### Mobile Application
+*_Requires Flutter and its prerequisite._*
+* Clone this repository 
+
+ ``` git clone https://github.com/razyoboy/ZhangScope.git```
+* Navigate to ```zhangscope-app-master``` through a terminal
+* [Build](https://docs.flutter.dev/deployment/android#building-the-app-for-release)
