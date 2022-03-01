@@ -1,5 +1,5 @@
-# ZhangScope: Introduction
-<img src="https://raw.githubusercontent.com/razyoboy/unishared/main/img/ProductCardSlim.png" width=100%>
+# ZhangScope
+<img src="https://raw.githubusercontent.com/razyoboy/ZhangScope/main/img/ProductCardSlim.png" width=100%>
 
 <br>
 
@@ -7,8 +7,8 @@ ZhangScope is an easy to replicate Oximeter with a substantial accuracy increase
 
 This is inspired by the current event of the COVID-19 pandemic, which saw the rise of interest in Oximeter products in the market, ZhangScope aims to offer a cheaper, but accurate platform to measure SpO2 concentration - together with a mobile application as a proof-of-concept.
 
-<img src="https://raw.githubusercontent.com/razyoboy/unishared/main/img/AppMock1.png" width=100%><br>
-  <img src="https://raw.githubusercontent.com/razyoboy/unishared/main/img/AppMock2.png" width=100%><br>
+<img src="https://raw.githubusercontent.com/razyoboy/ZhangScope/main/img/AppMock1.png" width=100%><br>
+  <img src="https://raw.githubusercontent.com/razyoboy/ZhangScope/main/img/AppMock2.png" width=100%><br>
 
 <sub>_DISCLAIMER: This is part of an academic project, thus - it may not be perfect, but we hope that this repository and its content would at the very least provide a working example of an Arduino-based Pulse Oximeter with a complimentary mobile application._
   
@@ -18,8 +18,7 @@ This repository contains two codebases:
   
   ## Installation: Arduino
   
-  *_Requires PlatformIO (VSCode) and its prerequisites,
-   wirings and part lists can be found [here](ww)_*
+  *_Requires PlatformIO (VSCode) and its prerequisites_.*
   
   * Clone this repository
     ```
@@ -35,7 +34,8 @@ This repository contains two codebases:
   Currently, the application only supports Android, as iOS uses BLE technologies and are not backward compatible with Classic Bluetooth.
   
   #### Pre-packaged
-  * Download the release package [here](d)
+   The prepackaged release contains both app bundle and APKs format.
+  * Download the release package [here](https://github.com/razyoboy/ZhangScope/releases)
   * [Deploy](https://developer.android.com/studio/command-line/bundletool#deploy_with_bundletool) to your devices
   
   #### Build from Source
@@ -44,8 +44,9 @@ This repository contains two codebases:
     ```
     git clone https://github.com/razyoboy/ZhangScope.git
     ```
-  * Navigate to ```zhangscope-app-master``` through a terminal
-  * [Build](https://docs.flutter.dev/deployment/android#building-the-app-for-release)
+  * Navigate to ```zhangscope-app-master``` through the terminal
+  * [Build](https://docs.flutter.dev/deployment/android#building-the-app-for-release) the application
+  * Deploy either through [app bundle](https://developer.android.com/studio/command-line/bundletool#deploy_with_bundletool) or [APKs](https://docs.flutter.dev/deployment/android#install-an-apk-on-a-device)
   
   ## Usage: Arduino
   
@@ -53,8 +54,8 @@ This repository contains two codebases:
   
   Once uploaded to the Arduino, assemble a circuit as shown below - this can be changed up to your standards and /or considerations. One imporant thing is that **A4 and A5 must be the SCA and SCL port**, respectively - and that the **TX/RX of the Arduino and the Bluetooth Module must be connected properly**.
   
-<img src="https://raw.githubusercontent.com/razyoboy/unishared/main/img/ZhangScope_bb.png" width=100%><br>
-Bigger version [here](https://raw.githubusercontent.com/razyoboy/unishared/main/img/ZhangScope_bb.png)
+<img src="https://raw.githubusercontent.com/razyoboy/ZhangScope/main/img/ZhangScope_bb.png" width=100%><br>
+Bigger version [here](https://raw.githubusercontent.com/razyoboy/ZhangScope/main/img/ZhangScope_bb.png)
 
 #### Part List
 * I2C 128x96 OLED Screen
