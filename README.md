@@ -1,4 +1,4 @@
-# ZhangScope
+# Introduction
 <img src="https://raw.githubusercontent.com/razyoboy/unishared/main/img/ProductCardSlim.png" width=100%>
 
 <br>
@@ -42,5 +42,38 @@ This repository contains two codebases:
     ```
     git clone https://github.com/razyoboy/ZhangScope.git
     ```
+  * Navigate to ```zhangscope-app-master``` through the terminal
+  * [Build](https://docs.flutter.dev/deployment/android#building-the-app-for-release)
+
+  #### Build from Source
+  *_Requires Flutter and its prerequisites._*
+  * Clone this repository 
+    ```
+    git clone https://github.com/razyoboy/ZhangScope.git
+    ```
   * Navigate to ```zhangscope-app-master``` through a terminal
   * [Build](https://docs.flutter.dev/deployment/android#building-the-app-for-release)
+  
+  ## Usage: Arduino
+  
+  ### Circuits
+  
+  Once uploaded to the Arduino, assemble a circuit as shown below - this can be changed up to your standards and /or considerations. One imporant thing is that **A4 and A5 must be the SCA and SCL port**, respectively - and that the **TX/RX of the Arduino and the Bluetooth Module must be connected properly**.
+  
+<img src="https://raw.githubusercontent.com/razyoboy/unishared/main/img/ZhangScope_bb.png" width=100%><br>
+Bigger version [here](https://raw.githubusercontent.com/razyoboy/unishared/main/img/ZhangScope_bb.png)
+
+#### Part List
+* I2C 128x96 OLED Screen
+* MAX30102 Pulse Oximetry Sensor
+* Bluetooth HC-05 Module
+* NCP1400 Voltage Step-Up Module
+* Arduino Nano (Rev 3.0) (ISCP)
+* Generic On/Off Button
+* TP4056 Li/Po Charging Module
+* Li/Po-1000 mAh Battery
+
+_Note that these parts are interchangable, except for the MAX30102 and the Bluetooth HC-05 Module_
+  
+
+  ## Usage: Mobile Application
